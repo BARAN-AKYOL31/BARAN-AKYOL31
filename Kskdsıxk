@@ -2,3 +2,13 @@ gg.alert("Selamın aleyküm mümin kardeşim\n bunu açtıysan Sen benim arkada�
 gg.alert("Hile için v2 bekleyin bye") 
 gg.alert("Bu arada Bu SCRIPT her gün güncellenir") 
 gg.alert("👋👋") 
+
+gg.setVisible(false)
+Password = "V1" 
+Result = gg.prompt({"\n🔑 GİRİŞ ŞİFRESİ 🔑 \n"},nil,{"text","checkbox"}) 
+if Result[1]  == Password then 
+gg.alert("✔️ ᴋᴇʏɪɴɪᴢ ᴅᴏɢ̆ʀᴜ ɢɪʀɪş ʙᴀşᴀʀɪʟɪ  ✔️") 
+else 
+gg.alert("❌ ᴋᴇʏ ʏᴀɴʟɪş ❌")  
+return  
+end
