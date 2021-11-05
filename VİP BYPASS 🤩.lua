@@ -40,7 +40,7 @@ else
   return
 end
 
-if os.date("%Y%m%d") >= "2021114" then
+if os.date("%Y%m%d") >= "20211107" then
 print("ℹ️ Script Süresi Doldu !!")
 return gg.alert("ℹ️ Script Süresi Doldu !!")
 end
@@ -285,7 +285,7 @@ os.exit()
 end
 gg.alert("SCRİPTE GİRİŞ", "Scripte Geçeyim Ben 😁")
 
-
+gg.alert("nah Açılır") 
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("620137442967552")
