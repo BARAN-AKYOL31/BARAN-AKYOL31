@@ -1,5 +1,3 @@
-
-
 local KonzletV7 = {} 
 for x,y in pairs(_G) do 
 if type(y) == 'table' then 
@@ -20,7 +18,7 @@ return
 end
 local log = string.char(255,255,0,255,255,0):rep(999):rep(999) for i = 1,5000 do debug.getinfo(1,nil,log) 
 end
-gg.alert("anti log")
+gg.alert("anti")
 
 PW = gg.prompt({
   "Şifre Giriniz :     Şifren Yoksa  telegram : @xwarnlystore"
@@ -41,7 +39,6 @@ else
   gg.alert("❌⚠️ ŞİFRE HATALI REİS.                                      TEKRAR DENE YADA OYNAMA .               RLX HACK          ")
   return
 end
-
 
 if os.date("%Y%m%d") >= "20211107" then
 print("ℹ️ Script Süresi Doldu !!")
