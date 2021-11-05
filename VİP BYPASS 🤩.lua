@@ -285,7 +285,7 @@ os.exit()
 end
 gg.alert("SCRİPTE GİRİŞ", "Scripte Geçeyim Ben 😁")
 
-gg.alert("nah Açılır") 
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("620137442967552")
