@@ -20,25 +20,6 @@ local log = string.char(255,255,0,255,255,0):rep(999):rep(999) for i = 1,5000 do
 end
 gg.alert("anti log")
 
-PW = gg.prompt({
-  "Şifre Giriniz :     Şifren Yoksa  telegram : @xwarnlystore"
-}, {
-  [1] = ""
-}, {
-  [1] = "text"
-})
-if not PW then
-  return
-end
-if PW[1] == "" then
-  gg.alert("Şifre Girmeden Nereye Basıon Reis ")
-  os.exit()
-end
-if PW[1] == "VİPV1" then
-else
-  gg.alert("❌⚠️ ŞİFRE HATALI REİS.                                      TEKRAR DENE YADA OYNAMA .               RLX HACK          ")
-  return
-end
 
 if os.date("%Y%m%d") >= "20211107" then
 print("ℹ️ Script Süresi Doldu !!")
