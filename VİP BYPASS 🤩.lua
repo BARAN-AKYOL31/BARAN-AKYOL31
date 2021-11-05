@@ -34,7 +34,7 @@ if PW[1] == "" then
   gg.alert("Şifre Girmeden Nereye Basıon Reis ")
   os.exit()
 end
-if PW[1] == "VİPV1" then
+if PW[1] == "Test" then
 else
   gg.alert("❌⚠️ ŞİFRE HATALI REİS.                                      TEKRAR DENE YADA OYNAMA .               RLX HACK          ")
   return
