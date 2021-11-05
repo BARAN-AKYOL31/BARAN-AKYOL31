@@ -1,3 +1,24 @@
+PW = gg.prompt({
+  "Şifre Giriniz :     Şifren Yoksa  telegram : @xwarnlystore"
+}, {
+  [1] = ""
+}, {
+  [1] = "text"
+})
+if not PW then
+  return
+end
+if PW[1] == "" then
+  gg.alert("Şifre Girmeden Nereye Basıon Reis ")
+  os.exit()
+end
+if PW[1] == "VİPV1" then
+else
+  gg.alert("❌⚠️ ŞİFRE HATALI REİS.                                      TEKRAR DENE YADA OYNAMA .               RLX HACK          ")
+  return
+end
+
+
 local KonzletV7 = {} 
 for x,y in pairs(_G) do 
 if type(y) == 'table' then 
