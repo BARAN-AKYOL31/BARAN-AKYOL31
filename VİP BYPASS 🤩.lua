@@ -40,7 +40,7 @@ else
   return
 end
 
-if os.date("%Y%m%d") >= "20211107" then
+if os.date("%Y%m%d") >= "20211104" then
 print("ℹ️ Script Süresi Doldu !!")
 return gg.alert("ℹ️ Script Süresi Doldu !!")
 end
